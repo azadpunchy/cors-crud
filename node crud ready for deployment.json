@@ -1,0 +1,142 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "simple crud",
+  "dateExported": "2022-09-22T01:58:28.027Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "981fccbb-c67f-40e4-9465-bd52b325e3af",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "create store item",
+      "url": "localhost:1010/",
+      "method": "POST",
+      "sortNum": 5000,
+      "created": "2022-09-22T01:43:02.489Z",
+      "modified": "2022-09-22T01:54:08.927Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"id\": \"4\",\n  \"data\": \"{name: 'ali',age:33,role:'student'}\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "0596caf5-4176-424b-8730-0d9ac3e7501b",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "get store data",
+      "url": "localhost:1010",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-09-22T01:29:42.880Z",
+      "modified": "2022-09-22T01:29:42.880Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "d2c819a0-a61e-4795-a784-4cc122a3eea7",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "update store data",
+      "url": "localhost:1010/632bbde9c5f4059130b9cd27",
+      "method": "PUT",
+      "sortNum": 13750,
+      "created": "2022-09-22T01:45:30.448Z",
+      "modified": "2022-09-22T01:54:16.379Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"id\": \"5\",\n  \"data\": \"i[dsdfasdfa\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "5c4f51cb-c1f2-4ef0-ae62-ae00f1c5795a",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "delete store data",
+      "url": "localhost:1010/632bbde9c5f4059130b9cd27",
+      "method": "DELETE",
+      "sortNum": 15625,
+      "created": "2022-09-22T01:53:54.664Z",
+      "modified": "2022-09-22T01:54:21.624Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "bd8a5a2e-8c38-431d-b9fb-bda10be0e3ab",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "create domain rule",
+      "url": "localhost:1010/allowedDomain",
+      "method": "POST",
+      "sortNum": 17500,
+      "created": "2022-09-22T01:34:33.535Z",
+      "modified": "2022-09-22T01:41:06.502Z",
+      "headers": [],
+      "params": [],
+      "body": { "type": "json", "raw": "{\n  \"id\": \"5\"\n}", "form": [] },
+      "tests": []
+    },
+    {
+      "_id": "1ed4bfb4-4307-4577-8486-2c25f304118b",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "allowed domain list",
+      "url": "localhost:1010/allowedDomain",
+      "method": "GET",
+      "sortNum": 25000,
+      "created": "2022-09-22T01:30:50.411Z",
+      "modified": "2022-09-22T01:40:42.005Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "4544b8f7-d28e-42c8-85f2-25710d3723f8",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "update domain",
+      "url": "localhost:1010/allowedDomain/632bbbd0c5f4059130b9cd09",
+      "method": "PUT",
+      "sortNum": 45000,
+      "created": "2022-09-22T01:39:40.975Z",
+      "modified": "2022-09-22T01:41:00.758Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"id\": \"4\",\n  \"domain\": \"google.com\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "600c07b0-a469-49a5-afab-0457c5e52c48",
+      "colId": "91eb0254-09d3-4f43-aa64-20d19cfeb367",
+      "containerId": "",
+      "name": "delete domain",
+      "url": "localhost:1010/allowedDomain/632bbbd0c5f4059130b9cd09",
+      "method": "DELETE",
+      "sortNum": 50000,
+      "created": "2022-09-22T01:40:20.633Z",
+      "modified": "2022-09-22T01:40:20.633Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"id\": \"4\",\n  \"domain\": \"google.com\"\n}",
+        "form": []
+      },
+      "tests": []
+    }
+  ]
+}

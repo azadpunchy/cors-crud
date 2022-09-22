@@ -5,7 +5,7 @@ const cors = require("cors");
 const STORE = require("./store");
 const corsList = require("./coreList");
 
-// methods
+// methods crud
 const storeCtrl = {
   create: async (req, res) => {
     try {
